@@ -96,6 +96,33 @@ INSERT INTO `depo` VALUES (1,'Mardin/Kabala'),(2,'Ankara/Kahramankazan');
 UNLOCK TABLES;
 
 --
+-- Table structure for table `fiyat_verir`
+--
+
+DROP TABLE IF EXISTS `fiyat_verir`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `fiyat_verir` (
+  `SiparişID` int NOT NULL,
+  `TedarikçiID` int NOT NULL,
+  `Fiyat` double NOT NULL,
+  PRIMARY KEY (`SiparişID`,`TedarikçiID`),
+  KEY `TedarikçiID__idx` (`TedarikçiID`) /*!80000 INVISIBLE */,
+  CONSTRAINT `Tedarikç_iID` FOREIGN KEY (`TedarikçiID`) REFERENCES `teradikçi` (`TedarikçiID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `fiyat_verir`
+--
+
+LOCK TABLES `fiyat_verir` WRITE;
+/*!40000 ALTER TABLE `fiyat_verir` DISABLE KEYS */;
+INSERT INTO `fiyat_verir` VALUES (1,1,999.9),(1,2,572.6);
+/*!40000 ALTER TABLE `fiyat_verir` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `kullanlılır`
 --
 
@@ -212,10 +239,14 @@ DROP TABLE IF EXISTS `sipariş`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `sipariş` (
+  `MateryalID` int DEFAULT NULL,
   `SiparişID` int NOT NULL,
-  `SiparişTarihi` date NOT NULL,
+  `SiparişTarihi` date DEFAULT NULL,
   `TeslimTarihi` date DEFAULT NULL,
-  PRIMARY KEY (`SiparişID`)
+  `Miktar` double DEFAULT NULL,
+  PRIMARY KEY (`SiparişID`),
+  KEY `MateryalID_idx` (`MateryalID`),
+  CONSTRAINT `MateryalID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`MateryalID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -225,37 +256,8 @@ CREATE TABLE `sipariş` (
 
 LOCK TABLES `sipariş` WRITE;
 /*!40000 ALTER TABLE `sipariş` DISABLE KEYS */;
-INSERT INTO `sipariş` VALUES (1,'2023-12-26','2024-02-14');
+INSERT INTO `sipariş` VALUES (2,1,'2024-06-28',NULL,268);
 /*!40000 ALTER TABLE `sipariş` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
--- Table structure for table `sipariş_edilir`
---
-
-DROP TABLE IF EXISTS `sipariş_edilir`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `sipariş_edilir` (
-  `MateryalID` int NOT NULL,
-  `SiparişID` int NOT NULL,
-  `Miktar` double unsigned NOT NULL,
-  PRIMARY KEY (`MateryalID`,`SiparişID`),
-  KEY `SiparişID_idx` (`SiparişID`),
-  KEY `MateryalID_idx` (`MateryalID`),
-  CONSTRAINT `MateryalID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`MateryalID`),
-  CONSTRAINT `Sipariş_ID` FOREIGN KEY (`SiparişID`) REFERENCES `sipariş` (`SiparişID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `sipariş_edilir`
---
-
-LOCK TABLES `sipariş_edilir` WRITE;
-/*!40000 ALTER TABLE `sipariş_edilir` DISABLE KEYS */;
-INSERT INTO `sipariş_edilir` VALUES (2,1,248);
-/*!40000 ALTER TABLE `sipariş_edilir` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -323,8 +325,6 @@ CREATE TABLE `tedarik` (
   `SiparişID` int NOT NULL,
   PRIMARY KEY (`TedarikçiID`,`SiparişID`),
   KEY `TedarikçiID_idx` (`TedarikçiID`),
-  KEY `SiparişID_idx` (`SiparişID`),
-  CONSTRAINT `SiparişID` FOREIGN KEY (`SiparişID`) REFERENCES `sipariş` (`SiparişID`),
   CONSTRAINT `TedarikçiID` FOREIGN KEY (`TedarikçiID`) REFERENCES `teradikçi` (`TedarikçiID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -360,7 +360,7 @@ CREATE TABLE `teradikçi` (
 
 LOCK TABLES `teradikçi` WRITE;
 /*!40000 ALTER TABLE `teradikçi` DISABLE KEYS */;
-INSERT INTO `teradikçi` VALUES (1,'HAVELSAN','0312 688 88 88');
+INSERT INTO `teradikçi` VALUES (1,'HAVELSAN','0312 688 88 88'),(2,'ASELSAN','0253 465 22 44');
 /*!40000 ALTER TABLE `teradikçi` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -401,4 +401,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-07-07 21:26:49
+-- Dump completed on 2024-07-07 22:38:03
