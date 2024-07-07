@@ -71,33 +71,6 @@ LOCK TABLES `bakım` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `bulunur`
---
-
-DROP TABLE IF EXISTS `bulunur`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `bulunur` (
-  `MateryalID` int NOT NULL,
-  `DepoID` int NOT NULL,
-  PRIMARY KEY (`MateryalID`,`DepoID`),
-  KEY `DepoID_idx` (`DepoID`),
-  KEY `Materyal__ID_idx` (`MateryalID`),
-  CONSTRAINT `DepoID` FOREIGN KEY (`DepoID`) REFERENCES `depo` (`ID`),
-  CONSTRAINT `Materyal___ID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `bulunur`
---
-
-LOCK TABLES `bulunur` WRITE;
-/*!40000 ALTER TABLE `bulunur` DISABLE KEYS */;
-/*!40000 ALTER TABLE `bulunur` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `depo`
 --
 
@@ -183,10 +156,13 @@ DROP TABLE IF EXISTS `materyal`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `materyal` (
   `ID` int NOT NULL,
+  `DepoID` int NOT NULL,
   `İsim` varchar(32) NOT NULL,
   `Miktar` int unsigned NOT NULL,
   `Tür` varchar(32) NOT NULL,
-  PRIMARY KEY (`ID`)
+  PRIMARY KEY (`ID`),
+  KEY `DepoID_idx` (`DepoID`),
+  CONSTRAINT `DepoID` FOREIGN KEY (`DepoID`) REFERENCES `depo` (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -359,4 +335,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-07-07 16:22:46
+-- Dump completed on 2024-07-07 16:29:17
