@@ -18,28 +18,27 @@ USE `proje`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `askeripersonel`
+-- Table structure for table `askeri_personel`
 --
 
-DROP TABLE IF EXISTS `askeripersonel`;
+DROP TABLE IF EXISTS `askeri_personel`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `askeripersonel` (
-  `ID` int NOT NULL,
-  `İsim` varchar(32) NOT NULL,
+CREATE TABLE `askeri_personel` (
+  `PersonelID` int NOT NULL,
   `Rütbe` varchar(32) NOT NULL,
   `Birlik` varchar(32) NOT NULL,
-  PRIMARY KEY (`ID`)
+  PRIMARY KEY (`PersonelID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `askeripersonel`
+-- Dumping data for table `askeri_personel`
 --
 
-LOCK TABLES `askeripersonel` WRITE;
-/*!40000 ALTER TABLE `askeripersonel` DISABLE KEYS */;
-/*!40000 ALTER TABLE `askeripersonel` ENABLE KEYS */;
+LOCK TABLES `askeri_personel` WRITE;
+/*!40000 ALTER TABLE `askeri_personel` DISABLE KEYS */;
+/*!40000 ALTER TABLE `askeri_personel` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -56,8 +55,8 @@ CREATE TABLE `bakım` (
   `İşlemDetayi` varchar(128) NOT NULL,
   PRIMARY KEY (`MateryalID`,`PersonelID`),
   KEY `PersonelID_idx` (`PersonelID`),
-  CONSTRAINT `Materyal__ID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`ID`),
-  CONSTRAINT `Personel_ID` FOREIGN KEY (`PersonelID`) REFERENCES `sivilpersonel` (`ID`)
+  CONSTRAINT `Materyal__ID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`MateryalID`),
+  CONSTRAINT `Personel_ID` FOREIGN KEY (`PersonelID`) REFERENCES `sivil_personel` (`PersonelID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -78,9 +77,9 @@ DROP TABLE IF EXISTS `depo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `depo` (
-  `ID` int NOT NULL,
+  `DepoID` int NOT NULL,
   `Konum` varchar(32) NOT NULL,
-  PRIMARY KEY (`ID`)
+  PRIMARY KEY (`DepoID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -94,33 +93,6 @@ LOCK TABLES `depo` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `görevli`
---
-
-DROP TABLE IF EXISTS `görevli`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `görevli` (
-  `OperasyonID` int NOT NULL,
-  `PersonelID` int NOT NULL,
-  PRIMARY KEY (`PersonelID`,`OperasyonID`),
-  KEY `PersonelID_idx` (`PersonelID`),
-  KEY `OperasyonID_idx` (`OperasyonID`),
-  CONSTRAINT `OperasyonID` FOREIGN KEY (`OperasyonID`) REFERENCES `operasyon` (`ID`),
-  CONSTRAINT `PersonelID` FOREIGN KEY (`PersonelID`) REFERENCES `askeripersonel` (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `görevli`
---
-
-LOCK TABLES `görevli` WRITE;
-/*!40000 ALTER TABLE `görevli` DISABLE KEYS */;
-/*!40000 ALTER TABLE `görevli` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `kullanlılır`
 --
 
@@ -128,13 +100,13 @@ DROP TABLE IF EXISTS `kullanlılır`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `kullanlılır` (
-  `OperasyonID` int NOT NULL,
   `MateryalID` int NOT NULL,
-  PRIMARY KEY (`OperasyonID`,`MateryalID`),
+  `OperasyonID` int NOT NULL,
+  PRIMARY KEY (`MateryalID`,`OperasyonID`),
   KEY `OperasyonIsdadD_idx` (`OperasyonID`),
   KEY `Materyal_ID_idx` (`MateryalID`),
-  CONSTRAINT `Materyal_ID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`ID`),
-  CONSTRAINT `Operasyon_ID` FOREIGN KEY (`OperasyonID`) REFERENCES `operasyon` (`ID`)
+  CONSTRAINT `Materyal_ID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`MateryalID`),
+  CONSTRAINT `Operasyon_ID` FOREIGN KEY (`OperasyonID`) REFERENCES `operasyon` (`OperasyonID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -155,14 +127,14 @@ DROP TABLE IF EXISTS `materyal`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `materyal` (
-  `ID` int NOT NULL,
-  `DepoID` int NOT NULL,
+  `MateryalID` int NOT NULL,
   `İsim` varchar(32) NOT NULL,
-  `Miktar` int unsigned NOT NULL,
+  `Miktar` double unsigned NOT NULL,
   `Tür` varchar(32) NOT NULL,
-  PRIMARY KEY (`ID`),
+  `DepoID` int NOT NULL,
+  PRIMARY KEY (`MateryalID`),
   KEY `DepoID_idx` (`DepoID`),
-  CONSTRAINT `DepoID` FOREIGN KEY (`DepoID`) REFERENCES `depo` (`ID`)
+  CONSTRAINT `DepoID` FOREIGN KEY (`DepoID`) REFERENCES `depo` (`DepoID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -183,11 +155,11 @@ DROP TABLE IF EXISTS `operasyon`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `operasyon` (
-  `ID` int NOT NULL,
+  `OperasyonID` int NOT NULL,
   `İsim` varchar(32) NOT NULL,
   `BaşlangıçTarihi` date DEFAULT NULL,
   `BitişTarihi` date DEFAULT NULL,
-  PRIMARY KEY (`ID`)
+  PRIMARY KEY (`OperasyonID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -201,6 +173,30 @@ LOCK TABLES `operasyon` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `personel`
+--
+
+DROP TABLE IF EXISTS `personel`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `personel` (
+  `PersonelID` int NOT NULL,
+  `İsim` varchar(32) NOT NULL,
+  `Bölüm` varchar(32) NOT NULL,
+  PRIMARY KEY (`PersonelID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `personel`
+--
+
+LOCK TABLES `personel` WRITE;
+/*!40000 ALTER TABLE `personel` DISABLE KEYS */;
+/*!40000 ALTER TABLE `personel` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `sipariş`
 --
 
@@ -208,10 +204,10 @@ DROP TABLE IF EXISTS `sipariş`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `sipariş` (
-  `ID` int NOT NULL,
+  `SiparişID` int NOT NULL,
   `SiparişTarihi` date NOT NULL,
   `TeslimTarihi` date DEFAULT NULL,
-  PRIMARY KEY (`ID`)
+  PRIMARY KEY (`SiparişID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -225,54 +221,81 @@ LOCK TABLES `sipariş` WRITE;
 UNLOCK TABLES;
 
 --
--- Table structure for table `siparişedilir`
+-- Table structure for table `sipariş_edilir`
 --
 
-DROP TABLE IF EXISTS `siparişedilir`;
+DROP TABLE IF EXISTS `sipariş_edilir`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `siparişedilir` (
-  `SiparişID` int NOT NULL,
+CREATE TABLE `sipariş_edilir` (
   `MateryalID` int NOT NULL,
-  PRIMARY KEY (`SiparişID`,`MateryalID`),
+  `SiparişID` int NOT NULL,
+  PRIMARY KEY (`MateryalID`,`SiparişID`),
   KEY `SiparişID_idx` (`SiparişID`),
   KEY `MateryalID_idx` (`MateryalID`),
-  CONSTRAINT `MateryalID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`ID`),
-  CONSTRAINT `Sipariş_ID` FOREIGN KEY (`SiparişID`) REFERENCES `sipariş` (`ID`)
+  CONSTRAINT `MateryalID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`MateryalID`),
+  CONSTRAINT `Sipariş_ID` FOREIGN KEY (`SiparişID`) REFERENCES `sipariş` (`SiparişID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `siparişedilir`
+-- Dumping data for table `sipariş_edilir`
 --
 
-LOCK TABLES `siparişedilir` WRITE;
-/*!40000 ALTER TABLE `siparişedilir` DISABLE KEYS */;
-/*!40000 ALTER TABLE `siparişedilir` ENABLE KEYS */;
+LOCK TABLES `sipariş_edilir` WRITE;
+/*!40000 ALTER TABLE `sipariş_edilir` DISABLE KEYS */;
+/*!40000 ALTER TABLE `sipariş_edilir` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `sivilpersonel`
+-- Table structure for table `sivil_personel`
 --
 
-DROP TABLE IF EXISTS `sivilpersonel`;
+DROP TABLE IF EXISTS `sivil_personel`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `sivilpersonel` (
-  `ID` int NOT NULL,
-  `İsim` varchar(32) NOT NULL,
-  `Meslek` varchar(32) NOT NULL,
-  PRIMARY KEY (`ID`)
+CREATE TABLE `sivil_personel` (
+  `PersonelID` int NOT NULL,
+  `Görev` varchar(32) NOT NULL,
+  `Birim` varchar(32) NOT NULL,
+  PRIMARY KEY (`PersonelID`),
+  CONSTRAINT `PersonelID` FOREIGN KEY (`PersonelID`) REFERENCES `personel` (`PersonelID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `sivilpersonel`
+-- Dumping data for table `sivil_personel`
 --
 
-LOCK TABLES `sivilpersonel` WRITE;
-/*!40000 ALTER TABLE `sivilpersonel` DISABLE KEYS */;
-/*!40000 ALTER TABLE `sivilpersonel` ENABLE KEYS */;
+LOCK TABLES `sivil_personel` WRITE;
+/*!40000 ALTER TABLE `sivil_personel` DISABLE KEYS */;
+/*!40000 ALTER TABLE `sivil_personel` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `taşıt`
+--
+
+DROP TABLE IF EXISTS `taşıt`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `taşıt` (
+  `MateryalID` int NOT NULL,
+  `Bölüm` varchar(32) NOT NULL,
+  `Birlik` varchar(32) DEFAULT NULL,
+  `Birim` varchar(32) DEFAULT NULL,
+  PRIMARY KEY (`MateryalID`),
+  CONSTRAINT `Materyal___ID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`MateryalID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `taşıt`
+--
+
+LOCK TABLES `taşıt` WRITE;
+/*!40000 ALTER TABLE `taşıt` DISABLE KEYS */;
+/*!40000 ALTER TABLE `taşıt` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -288,8 +311,8 @@ CREATE TABLE `tedarik` (
   PRIMARY KEY (`TedarikçiID`,`SiparişID`),
   KEY `TedarikçiID_idx` (`TedarikçiID`),
   KEY `SiparişID_idx` (`SiparişID`),
-  CONSTRAINT `SiparişID` FOREIGN KEY (`SiparişID`) REFERENCES `sipariş` (`ID`),
-  CONSTRAINT `TedarikçiID` FOREIGN KEY (`TedarikçiID`) REFERENCES `teradikçi` (`ID`)
+  CONSTRAINT `SiparişID` FOREIGN KEY (`SiparişID`) REFERENCES `sipariş` (`SiparişID`),
+  CONSTRAINT `TedarikçiID` FOREIGN KEY (`TedarikçiID`) REFERENCES `teradikçi` (`TedarikçiID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -310,10 +333,10 @@ DROP TABLE IF EXISTS `teradikçi`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `teradikçi` (
-  `ID` int NOT NULL,
+  `TedarikçiID` int NOT NULL,
   `İsim` varchar(32) NOT NULL,
   `İletişimBilgileri` varchar(32) NOT NULL,
-  PRIMARY KEY (`ID`)
+  PRIMARY KEY (`TedarikçiID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -335,4 +358,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-07-07 16:29:17
+-- Dump completed on 2024-07-07 17:19:52
