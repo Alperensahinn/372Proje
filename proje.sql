@@ -38,6 +38,7 @@ CREATE TABLE `askeri_personel` (
 
 LOCK TABLES `askeri_personel` WRITE;
 /*!40000 ALTER TABLE `askeri_personel` DISABLE KEYS */;
+INSERT INTO `askeri_personel` VALUES (1,'Onbaşı','57. Piyade Alayı');
 /*!40000 ALTER TABLE `askeri_personel` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -66,6 +67,7 @@ CREATE TABLE `bakım` (
 
 LOCK TABLES `bakım` WRITE;
 /*!40000 ALTER TABLE `bakım` DISABLE KEYS */;
+INSERT INTO `bakım` VALUES (3,2,'2019-04-18','Kokpit camları değiştirildi.');
 /*!40000 ALTER TABLE `bakım` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -89,6 +91,7 @@ CREATE TABLE `depo` (
 
 LOCK TABLES `depo` WRITE;
 /*!40000 ALTER TABLE `depo` DISABLE KEYS */;
+INSERT INTO `depo` VALUES (1,'Mardin/Kabala'),(2,'Ankara/Kahramankazan');
 /*!40000 ALTER TABLE `depo` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -102,6 +105,7 @@ DROP TABLE IF EXISTS `kullanlılır`;
 CREATE TABLE `kullanlılır` (
   `MateryalID` int NOT NULL,
   `OperasyonID` int NOT NULL,
+  `Miktar` double unsigned NOT NULL,
   PRIMARY KEY (`MateryalID`,`OperasyonID`),
   KEY `OperasyonIsdadD_idx` (`OperasyonID`),
   KEY `Materyal_ID_idx` (`MateryalID`),
@@ -116,6 +120,7 @@ CREATE TABLE `kullanlılır` (
 
 LOCK TABLES `kullanlılır` WRITE;
 /*!40000 ALTER TABLE `kullanlılır` DISABLE KEYS */;
+INSERT INTO `kullanlılır` VALUES (3,1,4);
 /*!40000 ALTER TABLE `kullanlılır` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -144,6 +149,7 @@ CREATE TABLE `materyal` (
 
 LOCK TABLES `materyal` WRITE;
 /*!40000 ALTER TABLE `materyal` DISABLE KEYS */;
+INSERT INTO `materyal` VALUES (1,'155 milimetre top mermisi',2456,'Cephane',1),(2,'Jet yakıtı',4500,'Yakıt',2),(3,'F-22',8,'Askeri Taşıt',2),(4,'Ural-375D',24,'Sivil Taşıt',1),(5,'G3 Piyade Tüfeği',1456,'Silah',1),(6,'Konserve Ton Balığı',2560,'Erzak',2);
 /*!40000 ALTER TABLE `materyal` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -169,6 +175,7 @@ CREATE TABLE `operasyon` (
 
 LOCK TABLES `operasyon` WRITE;
 /*!40000 ALTER TABLE `operasyon` DISABLE KEYS */;
+INSERT INTO `operasyon` VALUES (1,'Pençe Kaplan','2020-06-17',NULL);
 /*!40000 ALTER TABLE `operasyon` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -193,6 +200,7 @@ CREATE TABLE `personel` (
 
 LOCK TABLES `personel` WRITE;
 /*!40000 ALTER TABLE `personel` DISABLE KEYS */;
+INSERT INTO `personel` VALUES (1,'Seyit Ali Çabuk','Kara Kuvvetleri'),(2,'Ahmet Yıldız','Kara Kuvvetleri');
 /*!40000 ALTER TABLE `personel` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -217,6 +225,7 @@ CREATE TABLE `sipariş` (
 
 LOCK TABLES `sipariş` WRITE;
 /*!40000 ALTER TABLE `sipariş` DISABLE KEYS */;
+INSERT INTO `sipariş` VALUES (1,'2023-12-26','2024-02-14');
 /*!40000 ALTER TABLE `sipariş` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -230,6 +239,7 @@ DROP TABLE IF EXISTS `sipariş_edilir`;
 CREATE TABLE `sipariş_edilir` (
   `MateryalID` int NOT NULL,
   `SiparişID` int NOT NULL,
+  `Miktar` double unsigned NOT NULL,
   PRIMARY KEY (`MateryalID`,`SiparişID`),
   KEY `SiparişID_idx` (`SiparişID`),
   KEY `MateryalID_idx` (`MateryalID`),
@@ -244,6 +254,7 @@ CREATE TABLE `sipariş_edilir` (
 
 LOCK TABLES `sipariş_edilir` WRITE;
 /*!40000 ALTER TABLE `sipariş_edilir` DISABLE KEYS */;
+INSERT INTO `sipariş_edilir` VALUES (2,1,248);
 /*!40000 ALTER TABLE `sipariş_edilir` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -269,6 +280,7 @@ CREATE TABLE `sivil_personel` (
 
 LOCK TABLES `sivil_personel` WRITE;
 /*!40000 ALTER TABLE `sivil_personel` DISABLE KEYS */;
+INSERT INTO `sivil_personel` VALUES (2,'Temizlik ve Bakım','Bakım ve Onarım Birimi');
 /*!40000 ALTER TABLE `sivil_personel` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -295,6 +307,7 @@ CREATE TABLE `taşıt` (
 
 LOCK TABLES `taşıt` WRITE;
 /*!40000 ALTER TABLE `taşıt` DISABLE KEYS */;
+INSERT INTO `taşıt` VALUES (3,'Hava Kuvvetleri','Muharip Hava Kuvvetleri','4. Ana Jet Üs Komutanlığı'),(4,'Kara Kuvvetleri','Lojistik ve Destek Birlikleri','5. Logistik Tugayı');
 /*!40000 ALTER TABLE `taşıt` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -322,6 +335,7 @@ CREATE TABLE `tedarik` (
 
 LOCK TABLES `tedarik` WRITE;
 /*!40000 ALTER TABLE `tedarik` DISABLE KEYS */;
+INSERT INTO `tedarik` VALUES (1,1);
 /*!40000 ALTER TABLE `tedarik` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -346,6 +360,7 @@ CREATE TABLE `teradikçi` (
 
 LOCK TABLES `teradikçi` WRITE;
 /*!40000 ALTER TABLE `teradikçi` DISABLE KEYS */;
+INSERT INTO `teradikçi` VALUES (1,'HAVELSAN','0312 688 88 88');
 /*!40000 ALTER TABLE `teradikçi` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -358,4 +373,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-07-07 17:19:52
+-- Dump completed on 2024-07-07 18:14:03
