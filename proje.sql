@@ -363,6 +363,34 @@ LOCK TABLES `teradikçi` WRITE;
 INSERT INTO `teradikçi` VALUES (1,'HAVELSAN','0312 688 88 88');
 /*!40000 ALTER TABLE `teradikçi` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `transfer`
+--
+
+DROP TABLE IF EXISTS `transfer`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `transfer` (
+  `MateryalID` int NOT NULL,
+  `GöndericiDepoID` int NOT NULL,
+  `AlıcıDepoID` int NOT NULL,
+  `BaşlangıçTarihi` date DEFAULT NULL,
+  `BitişTarihi` date DEFAULT NULL,
+  `Miktar` int unsigned NOT NULL,
+  PRIMARY KEY (`MateryalID`,`GöndericiDepoID`,`AlıcıDepoID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `transfer`
+--
+
+LOCK TABLES `transfer` WRITE;
+/*!40000 ALTER TABLE `transfer` DISABLE KEYS */;
+INSERT INTO `transfer` VALUES (4,1,2,'2024-06-28',NULL,5);
+/*!40000 ALTER TABLE `transfer` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -373,4 +401,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-07-07 18:14:03
+-- Dump completed on 2024-07-07 21:23:46
