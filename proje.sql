@@ -377,7 +377,7 @@ CREATE TABLE `transfer` (
   `AlıcıDepoID` int NOT NULL,
   `BaşlangıçTarihi` date DEFAULT NULL,
   `BitişTarihi` date DEFAULT NULL,
-  `Miktar` int unsigned NOT NULL,
+  `Miktar` double unsigned NOT NULL,
   PRIMARY KEY (`MateryalID`,`GöndericiDepoID`,`AlıcıDepoID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -401,4 +401,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-07-07 21:23:46
+-- Dump completed on 2024-07-07 21:26:49
