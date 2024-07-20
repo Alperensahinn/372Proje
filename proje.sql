@@ -51,11 +51,14 @@ DROP TABLE IF EXISTS `bakım`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `bakım` (
   `MateryalID` int NOT NULL,
-  `PersonelID` int NOT NULL,
+  `DepoID` int NOT NULL,
   `BakımTarihi` date NOT NULL,
   `İşlemDetayi` varchar(128) NOT NULL,
-  PRIMARY KEY (`MateryalID`,`PersonelID`),
+  `PersonelID` int NOT NULL,
+  PRIMARY KEY (`MateryalID`,`DepoID`,`BakımTarihi`),
   KEY `PersonelID_idx` (`PersonelID`),
+  KEY `DepoID_idx` (`DepoID`),
+  CONSTRAINT `Depo__ID` FOREIGN KEY (`DepoID`) REFERENCES `depo` (`DepoID`),
   CONSTRAINT `Materyal__ID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`MateryalID`),
   CONSTRAINT `Personel_ID` FOREIGN KEY (`PersonelID`) REFERENCES `sivil_personel` (`PersonelID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -67,8 +70,36 @@ CREATE TABLE `bakım` (
 
 LOCK TABLES `bakım` WRITE;
 /*!40000 ALTER TABLE `bakım` DISABLE KEYS */;
-INSERT INTO `bakım` VALUES (3,2,'2019-04-18','Kokpit camları değiştirildi.');
+INSERT INTO `bakım` VALUES (3,2,'2019-04-18','Kokpit camları değiştirildi.',2);
 /*!40000 ALTER TABLE `bakım` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `bulun`
+--
+
+DROP TABLE IF EXISTS `bulun`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `bulun` (
+  `MateryalID` int NOT NULL,
+  `DepoID` int NOT NULL,
+  `Miktar` double unsigned NOT NULL,
+  PRIMARY KEY (`MateryalID`,`DepoID`),
+  KEY `DepoID_idx` (`DepoID`),
+  CONSTRAINT `DepoID` FOREIGN KEY (`DepoID`) REFERENCES `depo` (`DepoID`),
+  CONSTRAINT `Materyal____ID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`MateryalID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `bulun`
+--
+
+LOCK TABLES `bulun` WRITE;
+/*!40000 ALTER TABLE `bulun` DISABLE KEYS */;
+INSERT INTO `bulun` VALUES (1,1,1260),(2,2,4650),(3,2,30),(4,2,60),(5,1,800),(6,1,5000);
+/*!40000 ALTER TABLE `bulun` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -161,12 +192,8 @@ DROP TABLE IF EXISTS `materyal`;
 CREATE TABLE `materyal` (
   `MateryalID` int NOT NULL,
   `İsim` varchar(32) NOT NULL,
-  `Miktar` double unsigned NOT NULL,
   `Tür` varchar(32) NOT NULL,
-  `DepoID` int NOT NULL,
-  PRIMARY KEY (`MateryalID`),
-  KEY `DepoID_idx` (`DepoID`),
-  CONSTRAINT `DepoID` FOREIGN KEY (`DepoID`) REFERENCES `depo` (`DepoID`)
+  PRIMARY KEY (`MateryalID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -176,7 +203,7 @@ CREATE TABLE `materyal` (
 
 LOCK TABLES `materyal` WRITE;
 /*!40000 ALTER TABLE `materyal` DISABLE KEYS */;
-INSERT INTO `materyal` VALUES (1,'155 milimetre top mermisi',2456,'Cephane',1),(2,'Jet yakıtı',4500,'Yakıt',2),(3,'F-22',8,'Askeri Taşıt',2),(4,'Ural-375D',24,'Sivil Taşıt',1),(5,'G3 Piyade Tüfeği',1456,'Silah',1),(6,'Konserve Ton Balığı',2560,'Erzak',2);
+INSERT INTO `materyal` VALUES (1,'155 milimetre top mermisi','Cephane'),(2,'Jet yakıtı','Yakıt'),(3,'F-22','Askeri Taşıt'),(4,'Ural-375D','Sivil Taşıt'),(5,'G3 Piyade Tüfeği','Silah'),(6,'Konserve Ton Balığı','Erzak');
 /*!40000 ALTER TABLE `materyal` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -241,11 +268,14 @@ DROP TABLE IF EXISTS `sipariş`;
 CREATE TABLE `sipariş` (
   `MateryalID` int DEFAULT NULL,
   `SiparişID` int NOT NULL,
+  `DepoID` int NOT NULL,
   `SiparişTarihi` date DEFAULT NULL,
   `TeslimTarihi` date DEFAULT NULL,
   `Miktar` double DEFAULT NULL,
   PRIMARY KEY (`SiparişID`),
   KEY `MateryalID_idx` (`MateryalID`),
+  KEY `DepoID_idx` (`DepoID`),
+  CONSTRAINT `Depo___ID` FOREIGN KEY (`DepoID`) REFERENCES `depo` (`DepoID`),
   CONSTRAINT `MateryalID` FOREIGN KEY (`MateryalID`) REFERENCES `materyal` (`MateryalID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -256,7 +286,7 @@ CREATE TABLE `sipariş` (
 
 LOCK TABLES `sipariş` WRITE;
 /*!40000 ALTER TABLE `sipariş` DISABLE KEYS */;
-INSERT INTO `sipariş` VALUES (2,1,'2024-06-28',NULL,268);
+INSERT INTO `sipariş` VALUES (2,1,2,'2024-06-28',NULL,268);
 /*!40000 ALTER TABLE `sipariş` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -401,4 +431,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-07-07 22:38:03
+-- Dump completed on 2024-07-20 16:01:24
