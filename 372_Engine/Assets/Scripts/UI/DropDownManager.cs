@@ -22,6 +22,15 @@ public class DropDownManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        // Dropdown'lara onValueChanged listener'ý ekle
+        foreach (TMP_Dropdown dropdown in dropdowns)
+        {
+            dropdown.onValueChanged.AddListener(delegate { OnDropdownValueChanged(dropdown); });
+        }
+    }
+
     // Dropdown'lara seçenek eklemek için bir metod
     public void AddOption(int dropdownIndex, string option)
     {
@@ -69,6 +78,37 @@ public class DropDownManager : MonoBehaviour
         else
         {
             Debug.LogError("Geçersiz Dropdown indexi!");
+        }
+    }
+
+    // Dropdown deðeri deðiþtiðinde çaðrýlan metod
+    void OnDropdownValueChanged(TMP_Dropdown changedDropdown)
+    {
+        int index = changedDropdown.value;
+
+        // Dropdown'ýn yeni seçeneðine göre ColumnManager'ý güncelle
+        string selectedOption = changedDropdown.options[index].text;
+
+        // Seçilen opsiyona göre ilgili veriyi kullanarak ColumnManager'ý güncelle
+        // Burada sadece bir örnek veri kullandým, gerçek verinizi buraya eklemelisiniz
+        string data = GetDataForOption(selectedOption);
+        ColumnManager.Instance.CreateColumns(data);
+    }
+
+    // Seçilen opsiyona göre veriyi döndüren bir metod
+    string GetDataForOption(string option)
+    {
+        // Bu metod seçilen opsiyona göre ilgili veriyi döndürmelidir
+        // Örnek olarak sabit bir veri seti kullandým
+        switch (option)
+        {
+            case "Option1":
+                return "PersonelID, DepoID, BakýmTarihi, MateryalID, ÝþlemDetayi";
+            case "Option2":
+                return "2, 2, 2019-04-18, 3, Kokpit camlarý deðiþtirildi";
+            // Daha fazla case ekleyebilirsiniz
+            default:
+                return "Unknown option";
         }
     }
 }
