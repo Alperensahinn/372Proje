@@ -18,3 +18,41 @@ public class Materyal
     public string Tür;
     public string Marka;
 }
+
+[System.Serializable]
+public class AskeriPersonel
+{
+    public int PersonelID;
+    public string Rütbe;
+    public string Birlik;
+}
+
+[System.Serializable]
+public class Operasyon
+{
+    public int OperasyonID;
+    public string OperasyonAdý;
+    public string Tarih;
+}
+
+[System.Serializable]
+public class Bakým
+{
+    public int MateryalID;
+    public int DepoID;
+    public string BakýmTarihi;
+    public string ÝþlemDetayi;
+    public int PersonelID;
+    public string Ad;
+    public string Soyad;
+}
+
+[System.Serializable]
+public class Kullaným
+{
+    public int OperasyonID;
+    public string OperasyonAdý;
+    public int MateryalID;
+    public string MateryalAdý;
+    public int ToplamKullaným;
+}

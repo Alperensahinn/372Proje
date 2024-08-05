@@ -47,3 +47,6 @@ MonoBehaviour:
   state: 0
   sivilPersonelPanel: {fileID: 0}
   materyalPanel: {fileID: 0}
+  askeriPersonelPanel: {fileID: 0}
+  operasyonPanel: {fileID: 0}
+  "bak\u0131mPanel": {fileID: 0}

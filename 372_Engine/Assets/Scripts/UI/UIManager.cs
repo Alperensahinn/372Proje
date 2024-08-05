@@ -5,7 +5,11 @@ using UnityEngine;
 public enum UIState
 {
     SivilPersonelPanel,
-    MateryalPanel
+    MateryalPanel,
+    AskeriPersonelPanel,
+    OperasyonPanel,
+    BakýmPanel,
+    KullanýmPanel
 }
 
 public class UIManager : MonoBehaviour
@@ -19,6 +23,14 @@ public class UIManager : MonoBehaviour
     private SivilPersonelPanel sivilPersonelPanel;
     [SerializeField]
     private MateryalPanel materyalPanel;
+    [SerializeField]
+    private AskeriPersonelPanel askeriPersonelPanel;
+    [SerializeField]
+    private OperasyonPanel operasyonPanel;
+    [SerializeField]
+    private BakýmPanel bakýmPanel;
+    [SerializeField]
+    private KullanýmPanel kullanýmPanel;
 
     private void Awake()
     {
@@ -48,12 +60,32 @@ public class UIManager : MonoBehaviour
         {
             materyalPanel.gameObject.SetActive(true);
         }
+        else if (state == UIState.AskeriPersonelPanel)
+        {
+            askeriPersonelPanel.gameObject.SetActive(true);
+        }
+        else if (state == UIState.OperasyonPanel)
+        {
+            operasyonPanel.gameObject.SetActive(true);
+        }
+        else if (state == UIState.BakýmPanel)
+        {
+            bakýmPanel.gameObject.SetActive(true);
+        }
+        else if (state == UIState.KullanýmPanel)
+        {
+            kullanýmPanel.gameObject.SetActive(true);
+        }
     }
 
     private void DeactivateAllPanels() 
     {
         sivilPersonelPanel.gameObject.SetActive(false);
         materyalPanel.gameObject.SetActive(false);
+        askeriPersonelPanel.gameObject.SetActive(false);
+        operasyonPanel.gameObject.SetActive(false);
+        bakýmPanel.gameObject.SetActive(false);
+        kullanýmPanel.gameObject.SetActive(false);
     }
 
     public void OnSivilPersonelPanelSelect() 
@@ -66,6 +98,29 @@ public class UIManager : MonoBehaviour
     {
         materyalPanel.OnPanelSelect();
         ChangeUIState(UIState.MateryalPanel);
+    }
 
+    public void OnAskeriPersonelPanelSelect()
+    {
+        askeriPersonelPanel.OnPanelSelect();
+        ChangeUIState(UIState.AskeriPersonelPanel);
+    }
+
+    public void OnOperasyonPanelSelect()
+    {
+        operasyonPanel.OnPanelSelect();
+        ChangeUIState(UIState.OperasyonPanel);
+    }
+
+    public void OnBakýmPanelSelect()
+    {
+        bakýmPanel.OnPanelSelect();
+        ChangeUIState(UIState.BakýmPanel);
+    }
+
+    public void OnKullanýmPanelSelect()
+    {
+        kullanýmPanel.OnPanelSelect();
+        ChangeUIState(UIState.KullanýmPanel);
     }
 }
