@@ -15,8 +15,9 @@ public class Panel : MonoBehaviour, IDataReceiver
     [SerializeField]
     protected int page_number = 0;
 
-    public void OnDataRecive(string json)
+    public virtual void OnDataRecive(string json)
     {
+        ClearPanel();
         recived_data = json;
         FillLines();
     }
@@ -34,5 +35,13 @@ public class Panel : MonoBehaviour, IDataReceiver
     {
         this.page_number = page_number;
         FillLines();
+    }
+
+    private void ClearPanel() 
+    {
+        foreach(var line in lines) 
+        {
+            line.Clear();
+        }
     }
 }

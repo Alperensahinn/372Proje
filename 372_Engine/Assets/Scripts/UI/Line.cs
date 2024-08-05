@@ -17,4 +17,12 @@ public class Line : MonoBehaviour
     {
         input_fields[index].text = text;
     }
+
+    public void Clear() 
+    {
+        foreach (var field in input_fields) 
+        {
+            field.text = "";
+        }
+    }
 }

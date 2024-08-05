@@ -14,7 +14,18 @@
         die("Connection failed: " . $conn->connect_error);
     }
 
-    $selectquery = "SELECT b.BakımTarihi, b.İşlemDetayi, b.PersonelID, ap.Rütbe, ap.Birlik FROM bakım b JOIN askeri_personel ap ON b.PersonelID = ap.PersonelID WHERE b.BakımTarihi BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 7 DAY);";
+    $selectquery = "SELECT
+  b.BakımTarihi,
+  b.İşlemDetayi,
+  b.PersonelID,
+  sp.Ad,
+  sp.Soyad
+FROM
+  bakım b
+JOIN
+  sivil_personel sp ON b.PersonelID = sp.PersonelID
+WHERE
+  b.BakımTarihi BETWEEN CURDATE() AND DATE_ADD(CURDATE(), INTERVAL 7 DAY);";
     $result = $conn->query($selectquery);
 
     if ($result->num_rows > 0) 

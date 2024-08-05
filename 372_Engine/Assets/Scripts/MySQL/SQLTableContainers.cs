@@ -48,6 +48,16 @@ public class Bakým
 }
 
 [System.Serializable]
+public class BakýmýYaklaþan
+{
+    public string BakýmTarihi;
+    public string ÝþlemDetayi;
+    public int PersonelID;
+    public string Ad;
+    public string Soyad;
+}
+
+[System.Serializable]
 public class Kullaným
 {
     public int OperasyonID;
