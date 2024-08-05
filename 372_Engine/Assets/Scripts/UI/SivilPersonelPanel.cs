@@ -3,35 +3,25 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class SivilPersonelPanel : MonoBehaviour, IDataReceiver
+public class SivilPersonelPanel : Panel
 {
-    [SerializeField]
-    private string connectionh_php_address;
-
-    [SerializeField]
-    private List<Line> lines = new List<Line>();
-
-    private string recived_data;
-
-    public void OnDataRecive(string json)
+    protected override void FillLines() 
     {
-        recived_data = json;
-        FillLines();
-    }
+        Page<SivilPersonel> pages = new Page<SivilPersonel>();
+        pages.MakePage(recived_data);
 
-    public void OnPanelSelect() 
-    {
-        MySQLManager.Instance.ConnectAndGetData(this, connectionh_php_address);
-    }
-    
-    private void FillLines() 
-    {
-        SivilPersonel[] personelList = JsonHelper.FromJson<SivilPersonel>(recived_data);
-        for(int i = 0; i < personelList.Length; i++) 
+        for (int i = 0; i < pages.GetPages().GetLength(1); i++)
         {
-            lines[i].SetTextField(personelList[i].PersonelID.ToString(), 0);
-            lines[i].SetTextField(personelList[i].Ad.ToString(), 1);
-            lines[i].SetTextField(personelList[i].Soyad.ToString(), 2);
+            if (pages.GetPages()[page_number, i] != null)
+            {
+                lines[i].SetTextField(pages.GetPages()[page_number, i].PersonelID.ToString(), 0);
+                lines[i].SetTextField(pages.GetPages()[page_number, i].Ad.ToString(), 1);
+                lines[i].SetTextField(pages.GetPages()[page_number, i].Soyad.ToString(), 2);
+            }
+            else
+            {
+                break;
+            }
         }
     }
 }

@@ -9,3 +9,12 @@ public class SivilPersonel
     public string Ad;
     public string Soyad;
 }
+
+[System.Serializable]
+public class Materyal
+{
+    public int MateryalID;
+    public string MateryalAdý;
+    public string Tür;
+    public string Marka;
+}
