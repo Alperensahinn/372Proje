@@ -12,7 +12,7 @@ public class MySQLConnection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(Connect());
+        //StartCoroutine(Connect());
     }
 
     // Update is called once per frame
