@@ -57,12 +57,41 @@ public class BakýmýYaklaþan
     public string Soyad;
 }
 
+
 [System.Serializable]
-public class Kullaným
+public class Bulun
 {
-    public int OperasyonID;
-    public string OperasyonAdý;
     public int MateryalID;
-    public string MateryalAdý;
-    public int ToplamKullaným;
+    public int DepoID;
+    public double Miktar;
+}
+
+[System.Serializable]
+public class Depo
+{
+    public int DepoID;
+    public string Konum;
+}
+
+[System.Serializable]
+public class FiyatVerir
+{
+    public int SipariþID;
+    public int TedarikçiID;
+    public double Fiyat;
+}
+
+[System.Serializable]
+public class Sipariþ
+{
+    public int SipariþID;
+    public int MateryalID;
+    public double Miktar;
+}
+
+[System.Serializable]
+public class Tedarikçi
+{
+    public int TedarikçiID;
+    public string FirmaAdý;
 }
