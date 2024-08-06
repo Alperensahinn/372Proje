@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class OperasyonPanel : Panel
 {
+    [SerializeField]
+    private string update_operasyon_php;
+
     protected override void FillLines()
     {
         Page<Operasyon> pages = new Page<Operasyon>();
@@ -20,6 +23,22 @@ public class OperasyonPanel : Panel
             else
             {
                 break;
+            }
+        }
+    }
+
+    public void UpdateOperasyon()
+    {
+        foreach (var line in lines)
+        {
+            if (line.GetTextField(0) != null)
+            {
+                WWWForm form = new WWWForm();
+                form.AddField("OperasyonID", line.GetTextField(0));
+                form.AddField("OperasyonAdý", line.GetTextField(1));
+                form.AddField("Tarih", line.GetTextField(2));
+
+                MySQLManager.Instance.ConnectAndPostData(this, update_operasyon_php, form);
             }
         }
     }

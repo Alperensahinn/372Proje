@@ -2232,6 +2232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SivilPersonel_Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 40869434213759986, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 328726382239927466, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
       propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -4539,9 +4543,1581 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 477076146}
     m_Modifications:
+    - target: {fileID: 701095224750858421, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 701095224750858421, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 701095224750858421, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 701095224750858421, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 701095224750858421, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 701095224750858421, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 701095224750858421, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196303032969, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196303032969, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196303032969, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 898751196303032969, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196303032969, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196303032969, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196303032969, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196661606298, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196661606298, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196661606298, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 898751196661606298, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196661606298, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196661606298, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751196661606298, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197027539945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197027539945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197027539945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 898751197027539945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197027539945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197027539945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197027539945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197104259705, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197104259705, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197104259705, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 898751197104259705, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197104259705, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197104259705, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197104259705, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197431491945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197431491945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197431491945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 898751197431491945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197431491945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197431491945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197431491945, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197678675051, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197678675051, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197678675051, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 898751197678675051, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197678675051, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197678675051, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197678675051, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197834953005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197834953005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197834953005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 898751197834953005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197834953005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197834953005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197834953005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197844285534, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197844285534, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197844285534, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 898751197844285534, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197844285534, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197844285534, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197844285534, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197895477790, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197895477790, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197895477790, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 898751197895477790, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197895477790, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197895477790, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751197895477790, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751198267587458, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751198267587458, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751198267587458, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 898751198267587458, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751198267587458, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751198267587458, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 898751198267587458, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 925005484728468700, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: update_operasyon_php
+      value: http://localhost/372Proje/UpdateOperasyon.php
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254628143160526924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254628143160526924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254628143160526924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 1254628143160526924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254628143160526924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254628143160526924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254628143160526924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416000442393046241, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416000442393046241, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416000442393046241, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 1416000442393046241, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416000442393046241, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416000442393046241, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1416000442393046241, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1546909272573755156, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
       propertyPath: m_Name
       value: Operasyon_Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546909272573755156, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517163400134, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517163400134, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517163400134, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207517163400134, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517163400134, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517163400134, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517163400134, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517444694724, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517444694724, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517444694724, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207517444694724, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517444694724, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517444694724, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517444694724, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517761604785, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517761604785, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517761604785, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207517761604785, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517761604785, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517761604785, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517761604785, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517823692529, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517823692529, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517823692529, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207517823692529, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517823692529, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517823692529, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517823692529, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517831563138, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517831563138, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517831563138, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207517831563138, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517831563138, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517831563138, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517831563138, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517928750381, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517928750381, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517928750381, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207517928750381, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517928750381, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517928750381, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207517928750381, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518283580454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518470152501, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518470152501, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518470152501, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207518470152501, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518470152501, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518470152501, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207518470152501, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519101617366, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519101617366, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519101617366, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207519101617366, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519101617366, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519101617366, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519101617366, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519175859526, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519175859526, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519175859526, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 2911207519175859526, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519175859526, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519175859526, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911207519175859526, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289145911935739418, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289145911935739418, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289145911935739418, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3289145911935739418, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289145911935739418, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289145911935739418, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3289145911935739418, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338763806143, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338763806143, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338763806143, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3509764338763806143, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338763806143, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338763806143, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338763806143, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338838301743, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338838301743, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338838301743, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3509764338838301743, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338838301743, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338838301743, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764338838301743, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339077262559, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339077262559, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339077262559, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3509764339077262559, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339077262559, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339077262559, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339077262559, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339469502924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339469502924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339469502924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3509764339469502924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339469502924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339469502924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339469502924, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339571224443, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339571224443, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339571224443, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3509764339571224443, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339571224443, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339571224443, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339571224443, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339578308104, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339578308104, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339578308104, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3509764339578308104, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339578308104, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339578308104, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339578308104, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339631744072, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339631744072, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339631744072, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3509764339631744072, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339631744072, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339631744072, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764339631744072, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340001740244, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340001740244, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340001740244, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3509764340001740244, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340001740244, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340001740244, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340001740244, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340239385407, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340239385407, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340239385407, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3509764340239385407, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340239385407, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340239385407, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340239385407, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340453018173, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340453018173, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340453018173, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3509764340453018173, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340453018173, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340453018173, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509764340453018173, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207034920592, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207034920592, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207034920592, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3637432207034920592, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207034920592, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207034920592, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207034920592, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207483987858, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207483987858, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207483987858, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3637432207483987858, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207483987858, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207483987858, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207483987858, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207788454265, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207788454265, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207788454265, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3637432207788454265, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207788454265, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207788454265, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207788454265, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207825289445, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207825289445, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207825289445, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3637432207825289445, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207825289445, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207825289445, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207825289445, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207876727461, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207876727461, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207876727461, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3637432207876727461, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207876727461, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207876727461, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207876727461, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207885290454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207885290454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207885290454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3637432207885290454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207885290454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207885290454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432207885290454, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208320458081, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208320458081, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208320458081, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3637432208320458081, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208320458081, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208320458081, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208320458081, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208343435378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208343435378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208343435378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3637432208343435378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208343435378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208343435378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208343435378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208616245378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208616245378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208616245378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3637432208616245378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208616245378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208616245378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208616245378, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208692678930, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208692678930, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208692678930, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 3637432208692678930, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208692678930, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208692678930, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3637432208692678930, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911614277350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911614277350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911614277350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6135484911614277350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911614277350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911614277350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911614277350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911674093430, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911674093430, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911674093430, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6135484911674093430, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911674093430, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911674093430, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911674093430, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911938219910, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911938219910, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911938219910, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6135484911938219910, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911938219910, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911938219910, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484911938219910, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912053635733, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912053635733, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912053635733, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6135484912053635733, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912053635733, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912053635733, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912053635733, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912414098769, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912414098769, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912414098769, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6135484912414098769, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912414098769, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912414098769, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912414098769, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912421694498, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912421694498, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912421694498, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6135484912421694498, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912421694498, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912421694498, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912421694498, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912490604305, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912490604305, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912490604305, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6135484912490604305, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912490604305, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912490604305, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912490604305, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912594261645, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912594261645, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912594261645, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6135484912594261645, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912594261645, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912594261645, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912594261645, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912823517286, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912823517286, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912823517286, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6135484912823517286, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912823517286, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912823517286, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484912823517286, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484913313974628, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484913313974628, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484913313974628, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6135484913313974628, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484913313974628, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484913313974628, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6135484913313974628, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818531149359833141, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818531149359833141, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818531149359833141, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 6818531149359833141, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818531149359833141, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818531149359833141, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818531149359833141, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7182217878449919928, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
       propertyPath: m_RootOrder
@@ -4586,6 +6162,314 @@ PrefabInstance:
     - target: {fileID: 7182217878449919928, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8429043816095976213, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8429043816095976213, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8429043816095976213, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 8429043816095976213, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8429043816095976213, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 8429043816095976213, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8429043816095976213, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993367715245, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993367715245, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993367715245, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 9186265993367715245, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993367715245, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993367715245, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993367715245, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993724030577, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993724030577, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993724030577, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 9186265993724030577, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993724030577, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993724030577, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993724030577, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993732949762, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993732949762, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993732949762, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 9186265993732949762, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993732949762, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993732949762, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993732949762, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993802452017, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993802452017, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993802452017, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 9186265993802452017, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993802452017, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993802452017, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265993802452017, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994119930436, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994119930436, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994119930436, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 9186265994119930436, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994119930436, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994119930436, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994119930436, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994132237126, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994132237126, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994132237126, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 9186265994132237126, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994132237126, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994132237126, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994132237126, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994536181190, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994536181190, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994536181190, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 9186265994536181190, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994536181190, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994536181190, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994536181190, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994594059350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994594059350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994594059350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 9186265994594059350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994594059350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994594059350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994594059350, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994973422005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994973422005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994973422005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 9186265994973422005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994973422005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994973422005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265994973422005, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265995428578470, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265995428578470, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265995428578470, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8273299686763133472}
+    - target: {fileID: 9186265995428578470, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265995428578470, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateOperasyon
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265995428578470, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: OperasyonPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186265995428578470, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f90b5420ce5ddb4e85dbb0e8c0cc97c, type: 3}
