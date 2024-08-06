@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -94,4 +95,16 @@ public class Tedarikçi
 {
     public int TedarikçiID;
     public string FirmaAdý;
+}
+
+
+
+[System.Serializable]
+public class Kullaným
+{
+    public int OperasyonID;
+    public string OperasyonAdý;
+    public int MateryalID;
+    public string MateryalAdý;
+    public int ToplamKullaným;
 }

@@ -9,7 +9,12 @@ public enum UIState
     AskeriPersonelPanel,
     OperasyonPanel,
     BakýmPanel,
-    KullanýmPanel
+    KullanýmPanel,
+    BulunPanel,
+    DepoPanel,
+    FiyatVerirPanel,
+    SipariþPanel,
+    TedarikçiPanel
 }
 
 public class UIManager : MonoBehaviour
@@ -31,6 +36,16 @@ public class UIManager : MonoBehaviour
     private BakýmPanel bakýmPanel;
     [SerializeField]
     private KullanýmPanel kullanýmPanel;
+    [SerializeField]
+    private BulunPanel bulunPanel;
+    [SerializeField]
+    private DepoPanel depoPanel;
+    [SerializeField]
+    private FiyatVerirPanel fiyatVerirPanel;
+    [SerializeField]
+    private SipariþPanel sipariþPanel;
+    [SerializeField]
+    private TedarikçiPanel tedarikçiPanel;
 
     private void Awake()
     {
@@ -45,82 +60,128 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void ChangeUIState(UIState newState) 
+    public void ChangeUIState(UIState newState)
     {
         DeactivateAllPanels();
 
         state = newState;
 
-        if (state == UIState.SivilPersonelPanel) 
+        switch (state)
         {
-            sivilPersonelPanel.gameObject.SetActive(true);
-
-        }
-        else if (state == UIState.MateryalPanel)
-        {
-            materyalPanel.gameObject.SetActive(true);
-        }
-        else if (state == UIState.AskeriPersonelPanel)
-        {
-            askeriPersonelPanel.gameObject.SetActive(true);
-        }
-        else if (state == UIState.OperasyonPanel)
-        {
-            operasyonPanel.gameObject.SetActive(true);
-        }
-        else if (state == UIState.BakýmPanel)
-        {
-            bakýmPanel.gameObject.SetActive(true);
-        }
-        else if (state == UIState.KullanýmPanel)
-        {
-            kullanýmPanel.gameObject.SetActive(true);
+            case UIState.SivilPersonelPanel:
+                if (sivilPersonelPanel != null) sivilPersonelPanel.gameObject.SetActive(true);
+                break;
+            case UIState.MateryalPanel:
+                if (materyalPanel != null) materyalPanel.gameObject.SetActive(true);
+                break;
+            case UIState.AskeriPersonelPanel:
+                if (askeriPersonelPanel != null) askeriPersonelPanel.gameObject.SetActive(true);
+                break;
+            case UIState.OperasyonPanel:
+                if (operasyonPanel != null) operasyonPanel.gameObject.SetActive(true);
+                break;
+            case UIState.BakýmPanel:
+                if (bakýmPanel != null) bakýmPanel.gameObject.SetActive(true);
+                break;
+            case UIState.KullanýmPanel:
+                if (kullanýmPanel != null) kullanýmPanel.gameObject.SetActive(true);
+                break;
+            case UIState.BulunPanel:
+                if (bulunPanel != null) bulunPanel.gameObject.SetActive(true);
+                break;
+            case UIState.DepoPanel:
+                if (depoPanel != null) depoPanel.gameObject.SetActive(true);
+                break;
+            case UIState.FiyatVerirPanel:
+                if (fiyatVerirPanel != null) fiyatVerirPanel.gameObject.SetActive(true);
+                break;
+            case UIState.SipariþPanel:
+                if (sipariþPanel != null) sipariþPanel.gameObject.SetActive(true);
+                break;
+            case UIState.TedarikçiPanel:
+                if (tedarikçiPanel != null) tedarikçiPanel.gameObject.SetActive(true);
+                break;
         }
     }
 
-    private void DeactivateAllPanels() 
+    private void DeactivateAllPanels()
     {
-        sivilPersonelPanel.gameObject.SetActive(false);
-        materyalPanel.gameObject.SetActive(false);
-        askeriPersonelPanel.gameObject.SetActive(false);
-        operasyonPanel.gameObject.SetActive(false);
-        bakýmPanel.gameObject.SetActive(false);
-        kullanýmPanel.gameObject.SetActive(false);
+        if (sivilPersonelPanel != null) sivilPersonelPanel.gameObject.SetActive(false);
+        if (materyalPanel != null) materyalPanel.gameObject.SetActive(false);
+        if (askeriPersonelPanel != null) askeriPersonelPanel.gameObject.SetActive(false);
+        if (operasyonPanel != null) operasyonPanel.gameObject.SetActive(false);
+        if (bakýmPanel != null) bakýmPanel.gameObject.SetActive(false);
+        if (kullanýmPanel != null) kullanýmPanel.gameObject.SetActive(false);
+        if (bulunPanel != null) bulunPanel.gameObject.SetActive(false);
+        if (depoPanel != null) depoPanel.gameObject.SetActive(false);
+        if (fiyatVerirPanel != null) fiyatVerirPanel.gameObject.SetActive(false);
+        if (sipariþPanel != null) sipariþPanel.gameObject.SetActive(false);
+        if (tedarikçiPanel != null) tedarikçiPanel.gameObject.SetActive(false);
     }
 
-    public void OnSivilPersonelPanelSelect() 
+    public void OnSivilPersonelPanelSelect()
     {
-        sivilPersonelPanel.OnPanelSelect();
+        sivilPersonelPanel?.OnPanelSelect();
         ChangeUIState(UIState.SivilPersonelPanel);
     }
 
     public void OnMateryalPanelSelect()
     {
-        materyalPanel.OnPanelSelect();
+        materyalPanel?.OnPanelSelect();
         ChangeUIState(UIState.MateryalPanel);
     }
 
     public void OnAskeriPersonelPanelSelect()
     {
-        askeriPersonelPanel.OnPanelSelect();
+        askeriPersonelPanel?.OnPanelSelect();
         ChangeUIState(UIState.AskeriPersonelPanel);
     }
 
     public void OnOperasyonPanelSelect()
     {
-        operasyonPanel.OnPanelSelect();
+        operasyonPanel?.OnPanelSelect();
         ChangeUIState(UIState.OperasyonPanel);
     }
 
     public void OnBakýmPanelSelect()
     {
-        bakýmPanel.OnPanelSelect();
+        bakýmPanel?.OnPanelSelect();
         ChangeUIState(UIState.BakýmPanel);
     }
 
     public void OnKullanýmPanelSelect()
     {
-        kullanýmPanel.OnPanelSelect();
+        kullanýmPanel?.OnPanelSelect();
         ChangeUIState(UIState.KullanýmPanel);
+    }
+
+    public void OnBulunPanelSelect()
+    {
+        bulunPanel?.OnPanelSelect();
+        ChangeUIState(UIState.BulunPanel);
+    }
+
+    public void OnDepoPanelSelect()
+    {
+        depoPanel?.OnPanelSelect();
+        ChangeUIState(UIState.DepoPanel);
+    }
+
+    public void OnFiyatVerirPanelSelect()
+    {
+        fiyatVerirPanel?.OnPanelSelect();
+        ChangeUIState(UIState.FiyatVerirPanel);
+    }
+
+    public void OnSipariþPanelSelect()
+    {
+        sipariþPanel?.OnPanelSelect();
+        ChangeUIState(UIState.SipariþPanel);
+    }
+
+    public void OnTedarikçiPanelSelect()
+    {
+        tedarikçiPanel?.OnPanelSelect();
+        ChangeUIState(UIState.TedarikçiPanel);
     }
 }

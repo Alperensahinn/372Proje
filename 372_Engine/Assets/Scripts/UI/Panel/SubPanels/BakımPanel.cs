@@ -82,4 +82,26 @@ public class BakımPanel : Panel
         MySQLManager.Instance.ConnectAndGetData(this, bakimi_yaklasan_php);
         state = true;
     }
+
+
+    [SerializeField]
+    private string update_bakım_php;
+
+    public void UpdateBakım()
+    {
+        foreach (var line in lines)
+        {
+            if (line.GetTextField(0) != null)
+            {
+                WWWForm form = new WWWForm();
+                form.AddField("MateryalID", line.GetTextField(0));
+                form.AddField("DepoID", line.GetTextField(1));
+                form.AddField("BakımTarihi", line.GetTextField(2));
+                form.AddField("İşlemDetayi", line.GetTextField(3));
+                form.AddField("PersonelID", line.GetTextField(4));
+
+                MySQLManager.Instance.ConnectAndPostData(this, update_bakım_php, form);
+            }
+        }
+    }
 }

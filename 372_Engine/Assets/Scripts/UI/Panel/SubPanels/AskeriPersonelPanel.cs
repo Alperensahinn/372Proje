@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class AskeriPersonelPanel : Panel
 {
+    [SerializeField]
+    private string update_askeri_personel_php;
+
     protected override void FillLines()
     {
         Page<AskeriPersonel> pages = new Page<AskeriPersonel>();
@@ -20,6 +23,22 @@ public class AskeriPersonelPanel : Panel
             else
             {
                 break;
+            }
+        }
+    }
+
+    public void UpdateAskeriPersonel()
+    {
+        foreach (var line in lines)
+        {
+            if (line.GetTextField(0) != null)
+            {
+                WWWForm form = new WWWForm();
+                form.AddField("PersonelID", line.GetTextField(0));
+                form.AddField("Rütbe", line.GetTextField(1));
+                form.AddField("Birlik", line.GetTextField(2));
+
+                MySQLManager.Instance.ConnectAndPostData(this, update_askeri_personel_php, form);
             }
         }
     }

@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KullanımPanel : Panel 
+public class KullanımPanel : Panel
 {
+    [SerializeField]
+    private string update_kullanılır_php;
+
     protected override void FillLines()
     {
         Page<Kullanım> pages = new Page<Kullanım>();
@@ -22,6 +25,24 @@ public class KullanımPanel : Panel
             else
             {
                 break;
+            }
+        }
+    }
+
+    public void UpdateKullanılır()
+    {
+        foreach (var line in lines)
+        {
+            if (line.GetTextField(0) != null)
+            {
+                WWWForm form = new WWWForm();
+                form.AddField("OperasyonID", line.GetTextField(0));
+                form.AddField("OperasyonAdı", line.GetTextField(1));
+                form.AddField("MateryalID", line.GetTextField(2));
+                form.AddField("MateryalAdı", line.GetTextField(3));
+                form.AddField("ToplamKullanım", line.GetTextField(4));
+
+                MySQLManager.Instance.ConnectAndPostData(this, update_kullanılır_php, form);
             }
         }
     }
