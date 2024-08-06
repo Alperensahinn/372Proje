@@ -63,6 +63,8 @@ public class BakımPanel : Panel
 
     public override void OnDataRecive(string json) 
     {
+        ClearPanel();
+
         recived_data = json;
 
         if(state == false) 

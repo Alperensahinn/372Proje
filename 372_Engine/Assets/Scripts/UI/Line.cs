@@ -1,28 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class Line : MonoBehaviour
 {
     [SerializeField]
-    private TextMeshProUGUI[] input_fields;
+    private TMP_InputField[] input_fields;
 
     public string GetTextField(int index)
     {
-        return input_fields[index].text;
+        if (input_fields[index].enabled == true)
+            return input_fields[index].text;
+        else
+            return "";
     }
 
     public void SetTextField(string text, int index)
     {
         input_fields[index].text = text;
+        input_fields[index].enabled = true;
     }
 
     public void Clear() 
     {
-        foreach (var field in input_fields) 
+        for (int i = 0; i < input_fields.Length; i++) 
         {
-            field.text = "";
+            input_fields[i].text = "";
+            input_fields[i].enabled = false;
         }
     }
 }

@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class SivilPersonelPanel : Panel
 {
+    [SerializeField]
+    private string update_personel_php;
+
     protected override void FillLines() 
     {
         Page<SivilPersonel> pages = new Page<SivilPersonel>();
@@ -21,6 +24,22 @@ public class SivilPersonelPanel : Panel
             else
             {
                 break;
+            }
+        }
+    }
+
+    public void UpdateSivilPersonel() 
+    {
+        foreach(var line in lines) 
+        {
+            if(line.GetTextField(0) != null) 
+            {
+                WWWForm form = new WWWForm();
+                form.AddField("PersonelID", line.GetTextField(0));
+                form.AddField("Ad", line.GetTextField(1));
+                form.AddField("Soyad", line.GetTextField(2));
+
+                MySQLManager.Instance.ConnectAndPostData(this, update_personel_php, form);
             }
         }
     }

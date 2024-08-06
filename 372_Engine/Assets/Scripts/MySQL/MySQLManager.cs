@@ -61,14 +61,11 @@ public class MySQLManager : MonoBehaviour
         {
             string responseText = www.downloadHandler.text;
 
-            if (!string.IsNullOrEmpty(responseText))
-            {
-                receiver.OnDataRecive(responseText);
-            }
-            else
+            if (string.IsNullOrEmpty(responseText))
             {
                 Debug.LogError("No data received from server.");
             }
+
         }
     }
 

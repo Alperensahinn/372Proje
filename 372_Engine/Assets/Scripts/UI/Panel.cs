@@ -37,7 +37,7 @@ public class Panel : MonoBehaviour, IDataReceiver
         FillLines();
     }
 
-    private void ClearPanel() 
+    protected void ClearPanel() 
     {
         foreach(var line in lines) 
         {

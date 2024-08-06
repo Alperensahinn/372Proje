@@ -2232,6 +2232,1906 @@ PrefabInstance:
       propertyPath: m_Name
       value: SivilPersonel_Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 328726382239927466, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 328726382239927466, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 328726382239927466, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6974222929302165852, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+    - target: {fileID: 328726382239927466, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 328726382239927466, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 328726382239927466, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 328726382239927466, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 450412358609496071, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 450412358609496071, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 450412358609496071, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6974222929302165852, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+    - target: {fileID: 450412358609496071, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 450412358609496071, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 450412358609496071, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 450412358609496071, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321798366879, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321798366879, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321798366879, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 1846346321798366879, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321798366879, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321798366879, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321798366879, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321875164943, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321875164943, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321875164943, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 1846346321875164943, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321875164943, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321875164943, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346321875164943, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322509538172, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322509538172, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322509538172, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 1846346322509538172, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322509538172, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322509538172, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322509538172, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322599659119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322599659119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322599659119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 1846346322599659119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322599659119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322599659119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346322599659119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323050987364, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323050987364, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323050987364, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 1846346323050987364, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323050987364, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323050987364, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323050987364, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323154636536, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323154636536, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323154636536, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 1846346323154636536, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323154636536, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323154636536, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323154636536, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323205844152, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323205844152, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323205844152, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 1846346323205844152, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323205844152, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323205844152, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323205844152, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323215222219, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323215222219, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323215222219, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 1846346323215222219, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323215222219, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323215222219, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323215222219, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323371450509, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323371450509, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323371450509, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 1846346323371450509, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323371450509, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323371450509, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323371450509, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323887073679, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323887073679, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323887073679, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 1846346323887073679, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323887073679, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323887073679, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846346323887073679, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6974222929302165852, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2043579959280149587, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367838190890, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367838190890, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367838190890, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2689699367838190890, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367838190890, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367838190890, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367838190890, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367962011705, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367962011705, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367962011705, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2689699367962011705, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367962011705, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367962011705, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699367962011705, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368200906953, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368200906953, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368200906953, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2689699368200906953, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368200906953, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368200906953, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368200906953, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368275472729, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368275472729, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368275472729, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2689699368275472729, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368275472729, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368275472729, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368275472729, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368733658843, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368733658843, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368733658843, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2689699368733658843, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368733658843, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368733658843, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699368733658843, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369215723481, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369215723481, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369215723481, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2689699369215723481, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369215723481, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369215723481, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369215723481, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369453375794, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369453375794, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369453375794, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2689699369453375794, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369453375794, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369453375794, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369453375794, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369554944174, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369554944174, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369554944174, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2689699369554944174, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369554944174, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369554944174, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369554944174, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369608364782, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369608364782, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369608364782, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2689699369608364782, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369608364782, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369608364782, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369608364782, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369615535005, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369615535005, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369615535005, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2689699369615535005, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369615535005, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369615535005, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689699369615535005, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709351653168, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709351653168, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709351653168, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2854237709351653168, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709351653168, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709351653168, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709351653168, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709360293443, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709360293443, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709360293443, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2854237709360293443, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709360293443, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709360293443, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709360293443, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709411714051, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709411714051, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709411714051, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2854237709411714051, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709411714051, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709411714051, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709411714051, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709717009823, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709717009823, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709717009823, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2854237709717009823, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709717009823, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709717009823, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237709717009823, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710021469044, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710021469044, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710021469044, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2854237710021469044, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710021469044, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710021469044, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710021469044, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710202104438, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710202104438, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710202104438, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2854237710202104438, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710202104438, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710202104438, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710202104438, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710691751412, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710691751412, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710691751412, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2854237710691751412, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710691751412, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710691751412, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710691751412, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710768245860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710768245860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710768245860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2854237710768245860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710768245860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710768245860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237710768245860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711040990356, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711040990356, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711040990356, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2854237711040990356, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711040990356, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711040990356, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711040990356, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711332419975, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711332419975, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711332419975, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 2854237711332419975, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711332419975, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711332419975, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854237711332419975, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054347450660741884, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054347450660741884, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054347450660741884, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6974222929302165852, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+    - target: {fileID: 4054347450660741884, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054347450660741884, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054347450660741884, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4054347450660741884, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238561909195, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238561909195, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238561909195, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4431582238561909195, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238561909195, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238561909195, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238561909195, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238927438692, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238927438692, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238927438692, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4431582238927438692, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238927438692, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238927438692, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238927438692, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238935394839, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238935394839, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238935394839, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4431582238935394839, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238935394839, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238935394839, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238935394839, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238997465175, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238997465175, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238997465175, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4431582238997465175, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238997465175, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238997465175, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582238997465175, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239314388514, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239314388514, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239314388514, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4431582239314388514, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239314388514, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239314388514, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239314388514, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239327252256, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239327252256, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239327252256, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4431582239327252256, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239327252256, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239327252256, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239327252256, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239730637216, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239730637216, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239730637216, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4431582239730637216, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239730637216, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239730637216, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239730637216, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239804932144, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239804932144, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239804932144, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4431582239804932144, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239804932144, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239804932144, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582239804932144, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240167912915, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240167912915, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240167912915, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4431582240167912915, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240167912915, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240167912915, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240167912915, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240622903488, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240622903488, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240622903488, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4431582240622903488, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240622903488, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240622903488, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431582240622903488, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921248030323, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921248030323, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921248030323, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4666595921248030323, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921248030323, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921248030323, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921248030323, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921631898464, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921631898464, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921631898464, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4666595921631898464, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921631898464, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921631898464, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921631898464, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921895959440, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921895959440, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921895959440, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4666595921895959440, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921895959440, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921895959440, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921895959440, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921955844608, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921955844608, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921955844608, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4666595921955844608, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921955844608, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921955844608, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595921955844608, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922403544450, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922403544450, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922403544450, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4666595922403544450, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922403544450, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922403544450, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922403544450, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922625561728, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922625561728, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922625561728, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4666595922625561728, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922625561728, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922625561728, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922625561728, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922854826603, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922854826603, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922854826603, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4666595922854826603, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922854826603, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922854826603, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595922854826603, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923226928119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923226928119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923226928119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4666595923226928119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923226928119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923226928119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923226928119, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923295905988, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923295905988, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923295905988, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4666595923295905988, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923295905988, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923295905988, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923295905988, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923303416247, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923303416247, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923303416247, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 4666595923303416247, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923303416247, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923303416247, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4666595923303416247, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424236885746132179, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424236885746132179, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424236885746132179, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6974222929302165852, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+    - target: {fileID: 5424236885746132179, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424236885746132179, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424236885746132179, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5424236885746132179, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998437622123450355, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998437622123450355, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998437622123450355, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6974222929302165852, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+    - target: {fileID: 6998437622123450355, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998437622123450355, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998437622123450355, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6998437622123450355, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737296433056, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737296433056, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737296433056, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 7681635737296433056, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737296433056, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737296433056, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737296433056, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737577170594, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737577170594, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737577170594, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 7681635737577170594, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737577170594, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737577170594, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737577170594, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737894635735, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737894635735, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737894635735, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 7681635737894635735, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737894635735, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737894635735, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737894635735, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737964069860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737964069860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737964069860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 7681635737964069860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737964069860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737964069860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737964069860, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737973074583, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737973074583, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737973074583, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 7681635737973074583, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737973074583, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737973074583, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635737973074583, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738060962123, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738060962123, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738060962123, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 7681635738060962123, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738060962123, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738060962123, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738060962123, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738415923264, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738415923264, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738415923264, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 7681635738415923264, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738415923264, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738415923264, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738415923264, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738602661203, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738602661203, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738602661203, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 7681635738602661203, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738602661203, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738602661203, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635738602661203, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739250507952, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739250507952, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739250507952, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 7681635739250507952, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739250507952, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739250507952, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739250507952, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739308333344, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739308333344, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739308333344, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 198756761}
+    - target: {fileID: 7681635739308333344, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739308333344, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateSivilPersonel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739308333344, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SivilPersonelPanel, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681635739308333344, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8523860929866683230, guid: 6ca4b863481611643a41d7320a393aef, type: 3}
       propertyPath: m_RootOrder
       value: 0
