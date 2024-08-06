@@ -21466,7 +21466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a4013e6908f6344a8a48fee331a58f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  connectionh_php_address: 
+  connectionh_php_address: http://localhost/372Proje/GetDepoTable.php
   lines:
   - {fileID: 5064817988531765637}
   - {fileID: 7464079303294313750}
@@ -21480,7 +21480,7 @@ MonoBehaviour:
   - {fileID: 7464079301700103553}
   - {fileID: 7464079301985584116}
   page_number: 0
-  update_depo_php: 
+  update_depo_php: http://localhost/372Proje/update_depo.php
 --- !u!1 &7229068556912514541
 GameObject:
   m_ObjectHideFlags: 0
