@@ -1,4 +1,3 @@
-INSERT INTO `proje`.`sivil_personel` (`PersonelID`, `Ad`, `Soyad`) VALUES ('0', 'Arda', 'Ulusoy');
 INSERT INTO `proje`.`sivil_personel` (`PersonelID`, `Ad`, `Soyad`) VALUES ('1', 'Levent', 'Öztürk');
 INSERT INTO `proje`.`sivil_personel` (`PersonelID`, `Ad`, `Soyad`) VALUES ('2', 'Ali', 'Korkmaz');
 INSERT INTO `proje`.`sivil_personel` (`PersonelID`, `Ad`, `Soyad`) VALUES ('3', 'Emre', 'Güney');
