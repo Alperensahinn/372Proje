@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS `askeri_personel`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `askeri_personel` (
-  `PersonelID` int NOT NULL,
+  `PersonelID` int NOT NULL AUTO_INCREMENT,
   `Rütbe` varchar(32) COLLATE utf8mb4_general_ci NOT NULL,
   `Birlik` varchar(32) COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`PersonelID`)
@@ -110,7 +110,7 @@ DROP TABLE IF EXISTS `depo`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `depo` (
-  `DepoID` int NOT NULL,
+  `DepoID` int NOT NULL AUTO_INCREMENT,
   `Konum` varchar(32) COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`DepoID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -190,7 +190,7 @@ DROP TABLE IF EXISTS `materyal`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `materyal` (
-  `MateryalID` int NOT NULL,
+  `MateryalID` int NOT NULL AUTO_INCREMENT,
   `MateryalAdı` varchar(32) COLLATE utf8mb4_general_ci NOT NULL,
   `Tür` varchar(32) COLLATE utf8mb4_general_ci NOT NULL,
   `Marka` varchar(32) COLLATE utf8mb4_general_ci NOT NULL,
@@ -216,7 +216,7 @@ DROP TABLE IF EXISTS `operasyon`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `operasyon` (
-  `OperasyonID` int NOT NULL,
+  `OperasyonID` int NOT NULL AUTO_INCREMENT,
   `OperasyonAdı` varchar(32) COLLATE utf8mb4_general_ci NOT NULL,
   `Tarih` date NOT NULL,
   PRIMARY KEY (`OperasyonID`)
@@ -241,7 +241,7 @@ DROP TABLE IF EXISTS `sipariş`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `sipariş` (
-  `SiparişID` int NOT NULL,
+  `SiparişID` int NOT NULL AUTO_INCREMENT,
   `MateryalID` int NOT NULL,
   `Miktar` double NOT NULL,
   `DepoID` int NOT NULL,
@@ -271,7 +271,7 @@ DROP TABLE IF EXISTS `sivil_personel`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `sivil_personel` (
-  `PersonelID` int NOT NULL,
+  `PersonelID` int NOT NULL AUTO_INCREMENT,
   `Ad` varchar(32) COLLATE utf8mb4_general_ci NOT NULL,
   `Soyad` varchar(32) COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`PersonelID`)
@@ -296,7 +296,7 @@ DROP TABLE IF EXISTS `tedarikçi`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `tedarikçi` (
-  `TedarikçiID` int NOT NULL,
+  `TedarikçiID` int NOT NULL AUTO_INCREMENT,
   `FirmaAdı` varchar(32) COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`TedarikçiID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
