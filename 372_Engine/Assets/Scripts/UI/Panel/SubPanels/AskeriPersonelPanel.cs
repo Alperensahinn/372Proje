@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class AskeriPersonelPanel : Panel
@@ -51,6 +52,47 @@ public class AskeriPersonelPanel : Panel
         form.AddField("Rütbe", yeniRütbe);
 
         MySQLManager.Instance.ConnectAndPostData(this, update_askeri_personel_php, form);
+    }
+
+
+    [SerializeField]
+    private string update_birlik_php; // Birlik güncelleme için PHP dosyasýnýn adresi
+
+    // Diðer mevcut metotlar...
+
+
+
+
+
+
+
+
+    [SerializeField]
+    private TMP_InputField eskiBirlikInputField; // Eski Birlik için input alaný
+    [SerializeField]
+    private TMP_InputField yeniBirlikInputField; // Yeni Birlik için input alaný
+    [SerializeField]
+    private TMP_InputField minimumBirlikBoyutuInputField; // Minimum birlik boyutu için input alaný
+
+    public void BirlikleriBirlestir()
+    {
+        string eskiBirlik = eskiBirlikInputField.text;
+        string yeniBirlik = yeniBirlikInputField.text;
+        int minimumBirlikBoyutu;
+
+        if (int.TryParse(minimumBirlikBoyutuInputField.text, out minimumBirlikBoyutu))
+        {
+            WWWForm form = new WWWForm();
+            form.AddField("eskiBirlik", eskiBirlik);
+            form.AddField("yeniBirlik", yeniBirlik);
+            form.AddField("minimumBirlikBoyutu", minimumBirlikBoyutu);
+
+            MySQLManager.Instance.ConnectAndPostData(this, update_birlik_php, form);
+        }
+        else
+        {
+            Debug.LogError("Invalid minimum birlik boyutu input.");
+        }
     }
 
 }

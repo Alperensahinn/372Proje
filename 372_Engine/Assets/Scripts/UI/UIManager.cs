@@ -206,5 +206,29 @@ public class UIManager : MonoBehaviour
     }
 
 
+    public void OnBirlikleriBirlestirClick()
+    {
+        askeriPersonelPanel.BirlikleriBirlestir();
+    }
+
+
+
+
+
+
+
+
+
+
+    public void OnMateryalAktarimiBaslat()
+    {
+        bulunPanel.BaslatMateryalAktarimi(); // Parametreler InputField'lardan alýnacak
+    }
+
+    public void OnMateryalAktarimiTamamla()
+    {
+        bulunPanel.TamamlaMateryalAktarimi(); // Parametreler InputField'lardan alýnacak
+    }
+
 
 }

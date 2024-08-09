@@ -72,12 +72,22 @@ public class FiyatVerirPanel : Panel
         FiyatVerir[] fiyatVerirArray = JsonHelper.FromJson<FiyatVerir>(json);
         if (fiyatVerirArray.Length > 0)
         {
-            // En iyi fiyatý alan tedarikçiyi iþle
-            Debug.Log("En iyi fiyat: " + fiyatVerirArray[0].Fiyat + " Tedarikçi ID: " + fiyatVerirArray[0].TedarikçiID);
+            // En iyi fiyatý alan tedarikçiyi TextMeshPro UI elemanýnda göster
+            enIyiFiyatText.text = "En iyi fiyat: " + fiyatVerirArray[0].Fiyat + " TL\nTedarikçi ID: " + fiyatVerirArray[0].TedarikçiID;
         }
         else
         {
-            Debug.Log("Hiçbir teklif bulunamadý.");
+            enIyiFiyatText.text = "Hiçbir teklif bulunamadý.";
         }
     }
+
+
+
+
+
+
+
+
+    [SerializeField]
+    private TMP_Text enIyiFiyatText; // En iyi fiyatý gösterecek TextMeshPro elemaný
 }
