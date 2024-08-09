@@ -1,11 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class KullanımPanel : Panel
 {
     [SerializeField]
     private string update_kullanılır_php;
+
+    [SerializeField]
+    private string operasyon_filter_php;
+
+    [SerializeField]
+    private TMP_InputField opID;
 
     protected override void FillLines()
     {
@@ -45,5 +52,13 @@ public class KullanımPanel : Panel
                 MySQLManager.Instance.ConnectAndPostData(this, update_kullanılır_php, form);
             }
         }
+    }
+
+    public void FilterOperasyon() 
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("OperasyonID", opID.text);
+
+        MySQLManager.Instance.ConnectPostAndReciveData(this, operasyon_filter_php, form);
     }
 }
