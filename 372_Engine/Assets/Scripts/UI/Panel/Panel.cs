@@ -31,9 +31,9 @@ public class Panel : MonoBehaviour, IDataReceiver
     {
     }
 
-    public virtual void OnPageChange(int page_number)
+    public virtual void OnPageChange()
     {
-        this.page_number = page_number;
+        ClearPanel();
         FillLines();
     }
 
@@ -43,5 +43,25 @@ public class Panel : MonoBehaviour, IDataReceiver
         {
             line.Clear();
         }
+    }
+
+    public void NextPage() 
+    {
+        page_number++;
+        OnPageChange();
+    }
+
+    public void PrevPage()
+    {
+        if(page_number > 0) 
+        {
+            page_number--;
+            OnPageChange();
+        }
+    }
+
+    public int GetPageNumber() 
+    {
+        return page_number;
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public enum UIState
@@ -48,7 +49,13 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private TedarikçiPanel tedarikçiPanel;
     [SerializeField]
-    private TransferPanel transferPanel; // Added TransferPanel here
+    private TransferPanel transferPanel; 
+
+    [SerializeField]
+    private Panel currentPanel;
+
+    [SerializeField]
+    private TMP_Text pageNumber;
 
     private void Awake()
     {
@@ -68,6 +75,11 @@ public class UIManager : MonoBehaviour
         DeactivateAllPanels();
 
         state = newState;
+
+        if(currentPanel != null) 
+        {
+            pageNumber.text = currentPanel.GetPageNumber().ToString();
+        }
 
         switch (state)
         {
@@ -133,81 +145,88 @@ public class UIManager : MonoBehaviour
 
     public void OnSivilPersonelPanelSelect()
     {
+        currentPanel = sivilPersonelPanel;
         sivilPersonelPanel?.OnPanelSelect();
         ChangeUIState(UIState.SivilPersonelPanel);
     }
 
     public void OnMateryalPanelSelect()
     {
+        currentPanel = materyalPanel;
         materyalPanel?.OnPanelSelect();
         ChangeUIState(UIState.MateryalPanel);
     }
 
     public void OnAskeriPersonelPanelSelect()
     {
+        currentPanel = askeriPersonelPanel;
         askeriPersonelPanel?.OnPanelSelect();
         ChangeUIState(UIState.AskeriPersonelPanel);
     }
 
     public void OnOperasyonPanelSelect()
     {
+        currentPanel = operasyonPanel;
         operasyonPanel?.OnPanelSelect();
         ChangeUIState(UIState.OperasyonPanel);
     }
 
     public void OnBakýmPanelSelect()
     {
+        currentPanel = bakýmPanel;
         bakýmPanel?.OnPanelSelect();
         ChangeUIState(UIState.BakýmPanel);
     }
 
     public void OnKullanýmPanelSelect()
     {
+        currentPanel = kullanýmPanel;
         kullanýmPanel?.OnPanelSelect();
         ChangeUIState(UIState.KullanýmPanel);
     }
 
     public void OnBulunPanelSelect()
     {
+        currentPanel = bulunPanel;
         bulunPanel?.OnPanelSelect();
         ChangeUIState(UIState.BulunPanel);
+
     }
 
     public void OnDepoPanelSelect()
     {
+        currentPanel = depoPanel;
         depoPanel?.OnPanelSelect();
         ChangeUIState(UIState.DepoPanel);
     }
 
     public void OnFiyatVerirPanelSelect()
     {
+        currentPanel = fiyatVerirPanel;
         fiyatVerirPanel?.OnPanelSelect();
         ChangeUIState(UIState.FiyatVerirPanel);
     }
 
     public void OnSipariþPanelSelect()
     {
+        currentPanel = sipariþPanel;
         sipariþPanel?.OnPanelSelect();
         ChangeUIState(UIState.SipariþPanel);
     }
 
     public void OnTedarikçiPanelSelect()
     {
+        currentPanel = tedarikçiPanel;
         tedarikçiPanel?.OnPanelSelect();
         ChangeUIState(UIState.TedarikçiPanel);
     }
 
     public void OnTransferPanelSelect() // Added OnTransferPanelSelect method
     {
+        currentPanel = transferPanel;
         transferPanel?.OnPanelSelect();
         ChangeUIState(UIState.TransferPanel);
     }
-
-
-
-
-
-
 
 
     public void OnRütbeGuncelleClick()
@@ -228,14 +247,6 @@ public class UIManager : MonoBehaviour
     }
 
 
-
-
-
-
-
-
-
-
     public void OnMateryalAktarimiBaslat()
     {
         bulunPanel.BaslatMateryalAktarimi(); // Parametreler InputField'lardan alýnacak
@@ -246,5 +257,15 @@ public class UIManager : MonoBehaviour
         bulunPanel.TamamlaMateryalAktarimi(); // Parametreler InputField'lardan alýnacak
     }
 
+    public void GotoNextPage()
+    {
+        currentPanel.NextPage();
+        pageNumber.text = currentPanel.GetPageNumber().ToString();
+    }
 
+    public void GoPrevPage() 
+    {
+        currentPanel.PrevPage();
+        pageNumber.text = currentPanel.GetPageNumber().ToString();
+    }
 }
