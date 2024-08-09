@@ -888,6 +888,7 @@ MonoBehaviour:
   - {fileID: 6654137209694601493}
   page_number: 0
   bakimi_yaklasan_php: http://localhost/372Proje/BakimiYaklasan.php
+  "update_bak\u0131m_php": "http://localhost/372Proje/update_bak\u0131m.php"
 --- !u!1 &7050938994857078548
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,6 +1427,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line (2)
@@ -1434,17 +1547,101 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: '
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: '
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
@@ -1543,6 +1740,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line (1)
@@ -1551,13 +1860,97 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
@@ -1648,6 +2041,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line (7)
@@ -1656,13 +2161,97 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
@@ -1753,6 +2342,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line (8)
@@ -1761,13 +2462,97 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
@@ -1858,6 +2643,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line (10)
@@ -1866,13 +2763,97 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
@@ -1963,6 +2944,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line (4)
@@ -1971,13 +3064,97 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
@@ -2068,6 +3245,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line (3)
@@ -2076,13 +3365,97 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
@@ -2173,6 +3546,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line (5)
@@ -2181,13 +3666,97 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
@@ -2278,6 +3847,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line (6)
@@ -2286,13 +3967,97 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
@@ -2383,6 +4148,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line (9)
@@ -2391,13 +4268,97 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
@@ -2490,6 +4451,118 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587348625803188327, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739502681326390971, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2883611132018135708, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083651053626144305, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3130669090470173659, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Name
       value: Line
@@ -2498,17 +4571,101 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3609858894636048072, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4567565861538475075, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: '
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5718440526956803432, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6881479237576491400, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text
       value: '
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 959638510119919500}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: "UpdateBak\u0131m"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: "Bak\u0131mPanel, Assembly-CSharp"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278459223341063752, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_OnEndEdit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7503379912365749766, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_text

@@ -11,7 +11,7 @@ public class Page<T> where T : new()
     {
         data = JsonHelper.FromJson<T>(recived_data);
 
-        pages = new T[100, 11];
+        pages = new T[1000, 11];
 
         int j = 0;
         int k = 0;
@@ -20,7 +20,7 @@ public class Page<T> where T : new()
         {
             if(j < 11) 
             {
-                pages[k, i] = data[i];
+                pages[k, j] = data[i];
                 j++;
             }
             else if(j == 11) 
