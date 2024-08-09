@@ -103,6 +103,11 @@ public class UIManager : MonoBehaviour
                 break;
         }
     }
+    
+    public UIState GetUIState() 
+    {
+        return state;
+    }
 
     private void DeactivateAllPanels()
     {
