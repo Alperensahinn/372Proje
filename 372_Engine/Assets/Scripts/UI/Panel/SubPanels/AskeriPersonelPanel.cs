@@ -42,4 +42,15 @@ public class AskeriPersonelPanel : Panel
             }
         }
     }
+
+
+    public void UpdateRütbe(int personelID, string yeniRütbe)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("PersonelID", personelID);
+        form.AddField("Rütbe", yeniRütbe);
+
+        MySQLManager.Instance.ConnectAndPostData(this, update_askeri_personel_php, form);
+    }
+
 }

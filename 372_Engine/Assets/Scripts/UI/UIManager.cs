@@ -189,4 +189,22 @@ public class UIManager : MonoBehaviour
         tedarikçiPanel?.OnPanelSelect();
         ChangeUIState(UIState.TedarikçiPanel);
     }
+
+
+
+
+
+
+    public void OnRütbeGuncelleClick(int personelID, string yeniRütbe)
+    {
+        askeriPersonelPanel.UpdateRütbe(personelID, yeniRütbe);
+    }
+
+    public void OnIhaleYap()
+    {
+        fiyatVerirPanel.GetEnIyiFiyat(); // No parameter needed
+    }
+
+
+
 }
