@@ -20,8 +20,11 @@ public class Page<T> where T : new()
         {
             if(j < 11) 
             {
-                pages[k, j] = data[i];
-                j++;
+                if(data[i] != null) 
+                {
+                    pages[k, j] = data[i];
+                    j++;
+                }
             }
             else if(j == 11) 
             {

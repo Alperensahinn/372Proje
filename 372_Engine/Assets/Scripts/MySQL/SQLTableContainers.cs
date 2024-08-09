@@ -108,3 +108,12 @@ public class Kullaným
     public string MateryalAdý;
     public int ToplamKullaným;
 }
+
+[System.Serializable]
+public class OperasyondaKullanýlýr
+{
+    public int OperasyonID;
+    public int MateryalID;
+    public string MateryalAdý;
+    public int Miktar;
+}
