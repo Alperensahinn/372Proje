@@ -14,7 +14,8 @@ public enum UIState
     DepoPanel,
     FiyatVerirPanel,
     SipariþPanel,
-    TedarikçiPanel
+    TedarikçiPanel,
+    TransferPanel // Added TransferPanel here
 }
 
 public class UIManager : MonoBehaviour
@@ -46,6 +47,8 @@ public class UIManager : MonoBehaviour
     private SipariþPanel sipariþPanel;
     [SerializeField]
     private TedarikçiPanel tedarikçiPanel;
+    [SerializeField]
+    private TransferPanel transferPanel; // Added TransferPanel here
 
     private void Awake()
     {
@@ -101,10 +104,13 @@ public class UIManager : MonoBehaviour
             case UIState.TedarikçiPanel:
                 if (tedarikçiPanel != null) tedarikçiPanel.gameObject.SetActive(true);
                 break;
+            case UIState.TransferPanel: // Added TransferPanel case here
+                if (transferPanel != null) transferPanel.gameObject.SetActive(true);
+                break;
         }
     }
-    
-    public UIState GetUIState() 
+
+    public UIState GetUIState()
     {
         return state;
     }
@@ -122,6 +128,7 @@ public class UIManager : MonoBehaviour
         if (fiyatVerirPanel != null) fiyatVerirPanel.gameObject.SetActive(false);
         if (sipariþPanel != null) sipariþPanel.gameObject.SetActive(false);
         if (tedarikçiPanel != null) tedarikçiPanel.gameObject.SetActive(false);
+        if (transferPanel != null) transferPanel.gameObject.SetActive(false); // Added deactivation for TransferPanel
     }
 
     public void OnSivilPersonelPanelSelect()
@@ -189,6 +196,16 @@ public class UIManager : MonoBehaviour
         tedarikçiPanel?.OnPanelSelect();
         ChangeUIState(UIState.TedarikçiPanel);
     }
+
+    public void OnTransferPanelSelect() // Added OnTransferPanelSelect method
+    {
+        transferPanel?.OnPanelSelect();
+        ChangeUIState(UIState.TransferPanel);
+    }
+
+
+
+
 
 
 

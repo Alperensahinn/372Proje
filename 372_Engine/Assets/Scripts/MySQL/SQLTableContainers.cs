@@ -108,3 +108,17 @@ public class Kullaným
     public string MateryalAdý;
     public int ToplamKullaným;
 }
+
+
+
+[System.Serializable]
+public class Transfer
+{
+    public int TransferID;
+    public int MateryalID;
+    public int GöndericiDepoID;
+    public int AlýcýDepoID;
+    public string BaþlangýçTarihi;
+    public string BitiþTarihi;
+    public double Miktar;
+}
