@@ -3294,7 +3294,7 @@ INSERT INTO `kullanlılır` VALUES (77, 37, 11);
 INSERT INTO `kullanlılır` VALUES (56, 5, 98);
 INSERT INTO `kullanlılır` VALUES (86, 12, 95);
 INSERT INTO `kullanlılır` VALUES (49, 53, 32);
-INSERT INTO `kullanlılır` VALUES (86, 12, 13);
+INSERT INTO `kullanlılır` VALUES (86, 11, 13);
 INSERT INTO `kullanlılır` VALUES (82, 11, 22);
 INSERT INTO `kullanlılır` VALUES (30, 46, 74);
 INSERT INTO `kullanlılır` VALUES (89, 35, 36);
