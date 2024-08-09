@@ -69,6 +69,32 @@ public class MySQLManager : MonoBehaviour
         }
     }
 
+    public IEnumerator PostReciveData()
+    {
+        UnityWebRequest www = UnityWebRequest.Post(connection_string, post_form);
+
+        yield return www.SendWebRequest();
+
+        if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
+        {
+            Debug.LogError("Error while sending request: " + www.error);
+        }
+        else
+        {
+            string responseText = www.downloadHandler.text;
+
+            if (!string.IsNullOrEmpty(responseText))
+            {
+                receiver.OnDataRecive(responseText);
+            }
+            else
+            {
+                Debug.LogError("No data received from database.");
+            }
+
+        }
+    }
+
     public void ConnectAndGetData(IDataReceiver dataReceiver, string connection_php_address) 
     {
         connection_string = connection_php_address;
@@ -84,5 +110,14 @@ public class MySQLManager : MonoBehaviour
         receiver = dataReceiver;
 
         StartCoroutine(PostData());
+    }
+
+    public void ConnectPostAndReciveData(IDataReceiver dataReceiver, string connection_php_address, WWWForm postForm)
+    {
+        connection_string = connection_php_address;
+        post_form = postForm;
+        receiver = dataReceiver;
+
+        StartCoroutine(PostReciveData());
     }
 }
