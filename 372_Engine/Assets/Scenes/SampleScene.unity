@@ -683,7 +683,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 301792655}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 337982721}
+        m_TargetAssemblyTypeName: InsertToTable, Assembly-CSharp
+        m_MethodName: OnInsertButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &301792655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,6 +921,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: {fileID: 1313766749}
   insert_askeri_personel_php: http://localhost/372Proje/InsertAskeriPersonel.php
+  insert_depo_php: http://localhost/372Proje/InsertDepo.php
+  insert_materyal_php: http://localhost/372Proje/InsertMateryal.php
+  insert_operasyon_php: http://localhost/372Proje/InsertOperasyon.php
+  insert_siparis_php: "http://localhost/372Proje/InsertSipari\u015F.php"
+  insert_sivil_personel_php: http://localhost/372Proje/InsertSivilPersonel.php
+  insert_tedarikci_php: "http://localhost/372Proje/InsertTedarik\xE7i.php"
+  insert_transfer_php: http://localhost/372Proje/InsertTransfer.php
 --- !u!114 &373056537 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2025494079277002327, guid: 888a203d0c6abb540973f94c8b49f058, type: 3}
@@ -6585,6 +6604,22 @@ PrefabInstance:
     - target: {fileID: 7347874232813902492, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802341996077244806, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802341996077244806, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802341996077244806, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802341996077244806, guid: f0847180ea46eae40b74b607122bf621, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 8423628574539187944, guid: f0847180ea46eae40b74b607122bf621, type: 3}
       propertyPath: m_fontColor.b
