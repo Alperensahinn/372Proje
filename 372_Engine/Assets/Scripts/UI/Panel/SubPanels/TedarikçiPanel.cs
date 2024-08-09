@@ -7,6 +7,9 @@ public class TedarikçiPanel : Panel
     [SerializeField]
     private string update_tedarikçi_php;
 
+    [SerializeField]
+    private string operasyon_eksik_php;
+
     protected override void FillLines()
     {
         Page<Tedarikçi> pages = new Page<Tedarikçi>();
@@ -39,5 +42,10 @@ public class TedarikçiPanel : Panel
                 MySQLManager.Instance.ConnectAndPostData(this, update_tedarikçi_php, form);
             }
         }
+    }
+
+    public void OperasyonEksikleriniTamamla()
+    {
+        MySQLManager.Instance.ConnectAndPostData(this, operasyon_eksik_php, null);
     }
 }
