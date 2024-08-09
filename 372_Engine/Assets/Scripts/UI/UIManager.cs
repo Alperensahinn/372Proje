@@ -193,12 +193,11 @@ public class UIManager : MonoBehaviour
 
 
 
-
-
-    public void OnRütbeGuncelleClick(int personelID, string yeniRütbe)
+    public void OnRütbeGuncelleClick()
     {
-        askeriPersonelPanel.UpdateRütbe(personelID, yeniRütbe);
+        askeriPersonelPanel.UpdateRütbe();
     }
+
 
     public void OnIhaleYap()
     {

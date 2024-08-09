@@ -44,15 +44,37 @@ public class AskeriPersonelPanel : Panel
         }
     }
 
-
-    public void UpdateRütbe(int personelID, string yeniRütbe)
+    [SerializeField]
+    private TMP_InputField personelIDInputField; // Personel ID'sini alacak InputField
+    [SerializeField]
+    private TMP_InputField yeniRutbeInputField; // Yeni rütbeyi alacak InputField
+    [SerializeField]
+    private TMP_Text resultText; // Sonucu gösterecek TextMeshPro text elemaný
+    public void UpdateRütbe()
     {
-        WWWForm form = new WWWForm();
-        form.AddField("PersonelID", personelID);
-        form.AddField("Rütbe", yeniRütbe);
+        int personelID;
+        string yeniRütbe = yeniRutbeInputField.text;
 
-        MySQLManager.Instance.ConnectAndPostData(this, update_askeri_personel_php, form);
+        if (int.TryParse(personelIDInputField.text, out personelID))
+        {
+            WWWForm form = new WWWForm();
+            form.AddField("PersonelID", personelID);
+            form.AddField("Rütbe", yeniRütbe);
+
+            MySQLManager.Instance.ConnectAndPostData(this, update_askeri_personel_php, form);
+
+            // Sonucu text ile ekranda göster
+            resultText.text = "Rütbe güncellendi: Personel ID " + personelID + ", Yeni Rütbe: " + yeniRütbe;
+        }
+        else
+        {
+            // Hata mesajýný text ile ekranda göster
+            resultText.text = "Geçersiz Personel ID girdiniz.";
+        }
     }
+
+
+
 
 
     [SerializeField]
